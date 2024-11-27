@@ -142,6 +142,7 @@
             <li data-filter=".filter-tequila">Tequila Works</li>
             <li data-filter=".filter-2a">2Awesome Studios</li>
             <li data-filter=".filter-pendulo">Pendulo Studios</li>
+            <li data-filter=".filter-sideprojects">Side Projects</li>
             <li data-filter=".filter-jams">Game Jams</li>
           </ul><!-- End Portfolio Filters -->
 
@@ -166,7 +167,8 @@
                 <div class="portfolio-info portfolio-item-title">
                   <h4>Tintin Reporter Cigars of the Pharaoh</h4>
                   <p>Engine: Unreal Engine 4<br>Duties: Core, Gameplay, AI, Editor Tools</p>
-                  <a href="https://store.steampowered.com/app/2125090/Tintin_Reporter__Los_Cigarros_del_Faraon/" target="_blank" title="Steam" class="single-link"><i class="bi bi-steam"></i></a>
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#tintinModal" title="Video" class="preview-link"><i class="bi bi-play-circle-fill"></i></a>
+                  <a href="https://store.steampowered.com/app/2125090/Tintin_Reporter__Los_Cigarros_del_Faraon/" target="_blank" title="Steam" class="details-link"><i class="bi bi-steam"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
@@ -178,43 +180,178 @@
                 <div class="portfolio-info portfolio-item-title">
                   <h4>Warhammer 40,000: Boltgun</h4>
                   <p>Engine: Unreal Engine 4<br>Duties: Porting, Optimization</p>
-                  <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="preview-link"><i class="bi bi-play-circle-fill"></i></a>
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#warhammerModal" title="Video" class="preview-link"><i class="bi bi-play-circle-fill"></i></a>
                   <a href="https://www.nintendo.com/us/store/products/warhammer-40-000-boltgun-switch/" target="_blank" title="Nintendo Switch" class="details-link"><i class="bi bi-nintendo-switch"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+            <!-- Hotel -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-2a">
               <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/books-3.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Books 3</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/books-3.jpg" title="Branding 3" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <img src="assets/img/portfolio/hotelrenovator.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info portfolio-item-title">
+                  <h4>Hotel Renovator</h4>
+                  <p>Engine: Unreal Engine 4<br>Duties: Porting, Optimization</p>
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#hotelModal" title="Video" class="left-link"><i class="bi bi-play-circle-fill"></i></a>
+                  <a href="https://store.playstation.com/en-us/product/UP4133-PPSA13721_00-HOTELRENOVATOR00" target="_blank" title="PlayStation" class="single-link"><i class="bi bi-playstation"></i></a>
+                  <a href="https://www.xbox.com/en-US/games/store/hotel-renovator/9NWV5Q7M7DJQ/0010" target="_blank" title="Microsoft Store" class="right-link"><i class="bi bi-xbox"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
+            <!-- 2-SMRT 2 DIE -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-sideprojects">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/2smrt.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info portfolio-item-title">
+                  <h4>2-SMRT 2 DIE</h4>
+                  <p>Engine: Unreal Engine 4<br>Duties: AI, Movement, Gameplay, Tools</p>
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#2smrtModal" title="Video" class="preview-link"><i class="bi bi-play-circle-fill"></i></a>
+                  <a href="https://complex-27.itch.io/2-smrt-to-die" target="_blank" title="Itchio" class="details-link"><i class="bi bi-controller"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <!-- CODE ANIM -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-sideprojects">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/codeanim.gif" class="img-fluid" alt="">
+                <div class="portfolio-info portfolio-item-title">
+                  <h4>C++ Game Animation</h4>
+                  <p>Pure C++</p>
+                  <a href="https://github.com/MiguelLentisco/AnimationCPlusPlus" target="_blank" title="GitHub" class="single-link"><i class="bi bi-github"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <!-- PACMAN -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-sideprojects">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/pacman.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info portfolio-item-title">
+                  <h4>PACMAN</h4>
+                  <p>Engine: Unreal Engine 4</p>
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#pacmanModal" title="Video" class="preview-link"><i class="bi bi-play-circle-fill"></i></a>
+                  <a href="https://github.com/MiguelLentisco/Pacman" target="_blank" title="GitHub" class="details-link"><i class="bi bi-github"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <!-- HEROES -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-sideprojects">
+            <div class="portfolio-content h-100">
+              <img src="assets/img/portfolio/heroes.png" class="img-fluid" alt="">
+              <div class="portfolio-info portfolio-item-title">
+                <h4>HEROES MAY DIE?</h4>
+                <p>Engine: Unreal Engine 5</p>
+                <a href="https://github.com/MiguelLentisco/Heroes" target="_blank" title="GitHub" class="single-link"><i class="bi bi-github"></i></a>
+              </div>
+            </div>
+          </div><!-- End Portfolio Item -->
+
+          <!-- PATHLIGHTER -->
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-jams">
+            <div class="portfolio-content h-100">
+              <img src="assets/img/portfolio/pathligther.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info portfolio-item-title">
+                <h4>PATHLIGHTER</h4>
+                <p>Engine: Unity<br>Duties: Ships' movement, Game Booster, Gameplay</p>
+                <a href="#" data-bs-toggle="modal" data-bs-target="#pathligtherModal" title="Video" class="left-link"><i class="bi bi-play-circle-fill"></i></a>
+                <a href="https://nananoizy.itch.io/pathlighter" target="_blank" title="Itchio" class="single-link"><i class="bi bi-controller"></i></a>             
+                <a href="https://globalgamejam.org/2021/jam-sites/madrid" target="_blank" title="GGJ 2021" class="right-link"><i class="bi bi-trophy"></i></a>             
+              </div>
+            </div>
+          </div><!-- End Portfolio Item -->
+
+          <!-- UPNEA -->
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-jams">
+            <div class="portfolio-content h-100">
+              <img src="assets/img/portfolio/upnea.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info portfolio-item-title">
+                <h4>UPNEA</h4>
+                <p>Engine: Unity<br>Duties: Movement, Gameplay, Characters' Skills</p>
+                <a href="#" data-bs-toggle="modal" data-bs-target="#upneaModal" title="Video" class="left-link"><i class="bi bi-play-circle-fill"></i></a>
+                <a href="https://nananoizy.itch.io/upnea" target="_blank" title="Itchio" class="single-link"><i class="bi bi-controller"></i></a>             
+                <a href="https://www.startupcitiessummit2021.com/" target="_blank" title="SCGJ 2020" class="right-link"><i class="bi bi-trophy"></i></a>             
+              </div>
+            </div>
+          </div><!-- End Portfolio Item -->
+
           </div><!-- End Portfolio Container -->
 
         </div>
-
-        <!-- Warhammer Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="m-warhammer" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1 class="modal-title fs-5" id="m-warhammer">Warhammer 40,000: Boltgun</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        
+        <!-- Tintin Modal -->
+        <div class="modal fade" id="tintinModal" tabindex="-1" aria-labelledby="m-tintin" aria-hidden="true">
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content modal-portfolio">
+              <div class="modal-body embed-responsive">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xlWZAwK_cNc?rel=0" allowfullscreen></iframe>
               </div>
+            </div>
+          </div>
+        </div>
+        <!-- Warhammer Modal -->
+        <div class="modal fade" id="warhammerModal" tabindex="-1" aria-labelledby="m-warhammer" aria-hidden="true">
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content modal-portfolio">
               <div class="modal-body embed-responsive">
                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xccL-pQbeJ8?rel=0" allowfullscreen></iframe>
               </div>
             </div>
           </div>
         </div>
-
+        <!-- Hotel Modal -->
+        <div class="modal fade" id="hotelModal" tabindex="-1" aria-labelledby="m-hotel" aria-hidden="true">
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content modal-portfolio">
+              <div class="modal-body embed-responsive">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/4_NfaDgUt2g?rel=0" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 2SMRT Modal -->
+        <div class="modal fade" id="2smrtModal" tabindex="-1" aria-labelledby="m-2smrt" aria-hidden="true">
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content modal-portfolio">
+              <div class="modal-body embed-responsive">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/1vi4hdPA9Nc?rel=0" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Pacman Modal -->
+        <div class="modal fade" id="pacmanModal" tabindex="-1" aria-labelledby="m-pacman" aria-hidden="true">
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content modal-portfolio">
+              <div class="modal-body embed-responsive">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/GU8GRqtga5E?rel=0" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Pathligther Modal -->
+        <div class="modal fade" id="pathligtherModal" tabindex="-1" aria-labelledby="m-pathligther" aria-hidden="true">
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content modal-portfolio">
+              <div class="modal-body embed-responsive">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/_otTeUM4gZ0?rel=0" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Upnea Modal -->
+        <div class="modal fade" id="upneaModal" tabindex="-1" aria-labelledby="m-upnea" aria-hidden="true">
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content modal-portfolio">
+              <div class="modal-body embed-responsive">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/b_NeYVzD07M?rel=0" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section><!-- /Portfolio Section -->
 
