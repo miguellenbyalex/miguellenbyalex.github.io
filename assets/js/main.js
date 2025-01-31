@@ -99,9 +99,9 @@
     new Typed('.typed', {
       strings: typed_strings,
       loop: true,
-      typeSpeed: 100,
-      backSpeed: 50,
-      backDelay: 2000
+      typeSpeed: 50,
+      backSpeed: 40,
+      backDelay: 1700
     });
   }
 
@@ -227,3 +227,5 @@
   document.addEventListener('scroll', navmenuScrollspy);
 
 })();
+
+document.querySelectorAll('OpenPDF')
