@@ -86,13 +86,13 @@
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="row gy-4 justify-content-center">
+        <div class="row gy-4 justify-content-center"> 
           <div class="col-lg-4">
             <img src="assets/img/my-profile-img.jpg" class="img-fluid border border-primary" alt="">
           </div>
           <div class="col-lg-8 content">
             <h2>Game Programmer. Computer Science &amp Maths</h2>
-            <p class="fst-italic py-3" style="text-align: justify;">I'm a game programmer with 3.5yo work experience and a background experience in both mathematics and computer science. I've worked in several different game-code areas: 
+            <p class="fst-italic py-3" style="text-align: justify;">I'm a game programmer with 4yo work experience and a background experience in both mathematics and computer science. I've worked in several different game-code areas: 
               sometimes in gameplay (player, AI, assets), others with the editor (utilities, asset importers, debuggers) or even the game core systems. Due to my math part I love resolving complex puzzles
               and generalizing tangled systems.
             </p>
@@ -137,6 +137,7 @@
 
           <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
             <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-ea">Electronic Arts</li>
             <li data-filter=".filter-tequila">Tequila Works</li>
             <li data-filter=".filter-2a">2Awesome Studios</li>
             <li data-filter=".filter-pendulo">Pendulo Studios</li>
@@ -146,14 +147,36 @@
 
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
-            
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ea">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/madden.png" class="img-fluid" alt="">
+                <div class="portfolio-info portfolio-item-title">
+                  <h4>Madden NFL</h4>
+                  <p>Engine: Frostbite<br>Duties: BE, UI</p>
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#maddenModal" title="Video" class="single-link"><i class="bi bi-play-circle-fill"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ea">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/college.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info portfolio-item-title">
+                  <h4>College Football</h4>
+                  <p>Engine: Frostbite<br>Duties: BE, UI</p>
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#collegeModal" title="Video" class="single-link"><i class="bi bi-play-circle-fill"></i></a>
+                </div>
+              </div>
+            </div>
+
+          
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-tequila">
               <div class="portfolio-content h-100">
                 <img src="assets/img/portfolio/tequila-ug.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info portfolio-item-title">
-                  <h4>Unannounced Game</h4>
+                  <h4>The Ancient Mariner</h4>
                   <p>Engine: Unreal Engine 5<br>Duties: Gameplay, Player, Editor Tools</p>
-                  <a href="https://tequilaworks.com/" target="_blank" title="Tequila Works" class="single-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div>
@@ -276,11 +299,28 @@
               </div>
             </div>
           </div>
-
           </div>
+        </div>
 
+        <div class="modal fade" id="maddenModal" tabindex="-1" aria-labelledby="m-madden" aria-hidden="true">
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content modal-portfolio">
+              <div class="modal-body embed-responsive">
+                <iframe loading="lazy" class="embed-responsive-item" src="https://www.youtube.com/embed/EZrgXXHSaBQ?rel=0" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
         </div>
         
+        <div class="modal fade" id="collegeModal" tabindex="-1" aria-labelledby="m-college" aria-hidden="true">
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content modal-portfolio">
+              <div class="modal-body embed-responsive">
+                <iframe loading="lazy" class="embed-responsive-item" src="https://www.youtube.com/embed/sMGIfmAcNwA?rel=0" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
         
         <div class="modal fade" id="tintinModal" tabindex="-1" aria-labelledby="m-tintin" aria-hidden="true">
           <div class="modal-dialog modal-xl">
@@ -377,11 +417,23 @@
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
            
             <h3 class="resume-title">Professional Experience</h3>
+
+            <div class="resume-item">
+              <h4><a href="https://ea.com/" target="_blank" title="Electronic Arts" class="single-link">Electronic Arts</a></h4>
+              <h5>May 2025 - Present</h5>
+              <p><em>Generalist Software Engineer</em></p>
+              <p>Working on <a href="#" data-bs-toggle="modal" data-bs-target="#maddenModal" title="Madden NFL" class="preview-link">Madden NFL</a>/<a href="#" data-bs-toggle="modal" data-bs-target="#collegeModal" title="College Football" class="preview-link">College Football</a>.</p>
+              <ul>
+                <li>Backend client-server.</li>
+                <li>Integration with UI.</li>
+              </ul>
+            </div>
+
             <div class="resume-item">
               <h4><a href="https://tequilaworks.com/" target="_blank" title="Tequila Works" class="single-link">Tequila Works</a></h4>
-              <h5>July 2023 - Present</h5>
+              <h5>July 2023 - Mar 2025</h5>
               <p><em>Unreal Gameplay Programmer</em></p>
-              <p>Working on an unannounced project.</p>
+              <p>Worked on The Ancient Mariner.</p>
               <ul>
                 <li>Player <strong>GAS</strong> abilities, movement, animations and camera.</li>
                 <li><strong>Gameplay</strong> modes and assets related to player.</li>
@@ -414,6 +466,13 @@
               </ul>
             </div>
 
+            
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+
+
             <h3 class="resume-title">Game Projects</h3>
             <div class="resume-item">
               <h4><a href="#" data-bs-toggle="modal" data-bs-target="#2smrtModal" title="2-SMRT TO DIE" class="preview-link">2-SMRT TO DIE</a></h4>
@@ -435,10 +494,6 @@
               <p><em>Game Programmer | <a href="https://www.startupcitiessummit2020.com/" target="_blank" title="StartupCities Game Jam 2020" class="single-link">StartupCities Game Jam 2020</a></em></p>
               <p>Made in Unity</p>
             </div>
-
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
 
             <h3 class="resume-title">Education</h3>
             <div class="resume-item">
@@ -462,7 +517,11 @@
               <p>Specialized in Computation and Intelligent Systems</p>
             </div>
 
-            <h3 class="resume-title">Personal Projects</h3>
+            
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+              <h3 class="resume-title">Personal Projects</h3>
             <div class="resume-item">
               <h4><a href="https://github.com/miguellentisco/tfg" target="_blank" title="Analysis and modeling of time series with Deep Learning" class="single-link">Bachelor thesis - Analysis and modeling of time series with Deep Learning</a></h4>
               <h5>2019 - 2020</h5>
@@ -520,6 +579,14 @@
               </div>
             </div>
 
+
+            <div class="progress">
+              <span class="skill"><span>C#</span> <i class="val">Effective</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
             <div class="progress">
               <span class="skill"><span>Python</span> <i class="val">Effective</i></span>
               <div class="progress-bar-wrap">
@@ -527,12 +594,7 @@
               </div>
             </div>
 
-            <div class="progress">
-              <span class="skill"><span>C</span> <i class="val">Intermediate</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
+        
 
           </div>
 
@@ -541,28 +603,28 @@
             <div class="progress">
               <span class="skill"><span>Unity</span> <i class="val">Capable</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
             <div class="progress">
-              <span class="skill"><span>C#</span> <i class="val">Intermediate</i></span>
+              <span class="skill"><span>C</span> <i class="val">Intermediate</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
             <div class="progress">
               <span class="skill"><span>Java</span> <i class="val">Intermediate</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
             <div class="progress">
               <span class="skill"><span>R</span> <i class="val">Intermediate</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
